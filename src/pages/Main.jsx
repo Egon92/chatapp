@@ -13,7 +13,7 @@ function Main() {
   // if user is not logged-in return to login page
   useEffect(() => {
     //if user is not logged-in
-    // navigate("/login");
+    navigate("/login");
   }, []);
   return (
     <div className="main-wrapper">
