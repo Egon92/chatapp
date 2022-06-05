@@ -1,10 +1,10 @@
-function UserLoginItem({ user, login }) {
+function UserLoginItem({ user, logIn }) {
   return (
     <li>
       <button
         className="user-selection"
         onClick={() => {
-          login();
+          logIn(user);
         }}
       >
         <img
